@@ -1,4 +1,5 @@
 // src/POPOSList.js
+import './POPOSList.css';
 
 import POPOSSpace from './POPOSSpace';
 
