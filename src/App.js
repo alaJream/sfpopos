@@ -1,15 +1,12 @@
-// src/App.js
-
+import { Outlet } from 'react-router-dom'
 import './App.css';
-import Title from './Title';
-import POPOSList from './POPOSList';
-
+import Title from './components/Title/Title';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Title />
-      <POPOSList />
+      <Outlet />
     </div>
   );
 }
