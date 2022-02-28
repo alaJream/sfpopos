@@ -1,7 +1,7 @@
 // src/POPOSDetails.js
 import './POPOSDetails.css';
 import React from 'react';
-import { useParams } from 'react-router';
+import { useParams } from 'react-router-dom';
 import data from '../../sfpopos-data.js';
 import POPOSFeatureList from '../POPOSFeatureList/POPOSFeatureList';
 
@@ -12,8 +12,8 @@ function POPOSDetails(props) {
 
   return (
     <div className="POPOSDetails">
-      <div className="POPOSDetails-image">
-        <img src={`${process.env.PUBLIC_URL}images/${images[0]}`} />
+      <div className='POPOSDetails-image'>
+        <img src={`${process.env.PUBLIC_URL}/images/${images[0]}`} alt={title} />
       </div>
       <div className="POPOSDetails-info">
         <h1 className="POPOSDetails-title">{ title }</h1>
