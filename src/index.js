@@ -4,7 +4,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import About from './components/About/About'
 import './index.css';
 import POPOSList from './components/POPOSList/POPOSList'
-import App from './App';
+import App from './components/App';
 import POPOSDetails from './components/POPOSDetails/POPOSDetails'
 // import reportWebVitals from './reportWebVitals';
 
