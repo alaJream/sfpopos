@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 function POPOSSpace(props) {
   // Get the
   const { name, image, address, hours, id } = props
+  console.log(`https://alajream.github.io/sfpopos/images/${image}`)
   return (
     <div className="POPOSSpace">
       <h1>
@@ -15,7 +16,7 @@ function POPOSSpace(props) {
         </Link>
       </h1>
       <Link to={`/details/${id}`}>
-        <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt="Hello" />
+        <img src={`https://alajream.github.io/sfpopos/images/${image}`} width="300" height="300" alt="Hello" />
       </Link>
       <div className="POPOSSpace-info">
 				<div >{address}</div>
